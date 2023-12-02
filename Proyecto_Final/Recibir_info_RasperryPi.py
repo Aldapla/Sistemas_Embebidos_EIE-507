@@ -43,13 +43,13 @@ try:
             continue
 
         # Lógica para iniciar o detener la grabación basada en la distancia
-        if distancia < DISTANCE_THRESHOLD and not grabacion_activa:
+        if  distancia < DISTANCE_THRESHOLD and not grabacion_activa:
             iniciar_grabacion()
             grabacion_activa = True
         else distancia >= DISTANCE_THRESHOLD and grabacion_activa:
-            detener_grabacion()
-            grabacion_activa = False
-            time.sleep(WAIT_TIME_SECONDS)
+             detener_grabacion()
+             grabacion_activa = False
+             time.sleep(WAIT_TIME_SECONDS)
 
 except KeyboardInterrupt:
     # Cerrar el puerto serie al salir
