@@ -46,7 +46,7 @@ try:
         if distancia < DISTANCE_THRESHOLD and not grabacion_activa:
             iniciar_grabacion()
             grabacion_activa = True
-        elif distancia >= DISTANCE_THRESHOLD and grabacion_activa:
+        else distancia >= DISTANCE_THRESHOLD and grabacion_activa:
             detener_grabacion()
             grabacion_activa = False
             time.sleep(WAIT_TIME_SECONDS)
