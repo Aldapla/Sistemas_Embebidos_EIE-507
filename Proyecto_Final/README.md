@@ -1,4 +1,4 @@
-# Sistema de Vigilancia Inteligente controlado por Raspberry Pi
+# Sistema de Vigilancia Inteligente Controlado por Raspberry Pi
 
 A continución se explica la metodología de cómo fue realizada la experiencia, considerar que el proyecto se lleva a cabo a través de una VM, en la cual mediante una conexión SSH se controla la 
 RaspberryPi , se hace uso de la Interfaz web de motion para poder ver el video en tiempo real, se usa Putty para poder almacenar los videos en la máquina local y luego se usa Matlab para realizar
@@ -19,7 +19,7 @@ Daniel Alvarez PLacencia
 - Cámara web EyeToy
 
 
-## Configuración del Entorno
+### Configuración del Entorno
 
 1. Conexion SSH:
    ```bash
@@ -63,7 +63,12 @@ Daniel Alvarez PLacencia
 
 ### Ver la transmición con URL tipo: IP_raspberry:Puerto
 
-### Resultados
+## Resultados
+
+### Motion
+
+### Detección de Objetos
+
 
 
    
