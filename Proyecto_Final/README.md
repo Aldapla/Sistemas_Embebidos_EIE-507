@@ -66,7 +66,7 @@ Daniel Alvarez PLacencia
 ## Resultados
 
 ### Motion
-![Interfaz Web Motion ](images/cam_on.png)
+![Interfaz Web Motion ](cam_on.png)
 
 ### Detección de Objetos
 
