@@ -4,8 +4,6 @@ A continución se explica la metodología de cómo fue realizada la experiencia,
 RaspberryPi , se hace uso de la Interfaz web de motion para poder ver el video en tiempo real, se usa Putty para poder almacenar los videos en la máquina local y luego se usa Matlab para realizar
 la detección de Objetos.
 
-Considerar que se pueden encontrar tan solo los pasos globales, me reservo configuraciones y pasos específicos
-
 Daniel Alvarez PLacencia
 
 ### Software y Hardware usado
@@ -25,10 +23,6 @@ Daniel Alvarez PLacencia
    ```bash
    ssh usuario@ipraspberry.local
      
-2. Actualizar el sistema:
-   ```bash
-   sudo apt update
-   sudo apt upgrade
    
 ### Instalación de Motion
 
